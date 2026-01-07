@@ -9,56 +9,54 @@ redirect_from:
 
 {% include base_path %}
 
+Profile
+======
+Master’s student in Machine Learning (MVA) at ENS Paris-Saclay with research experience in generative modeling, probabilistic methods, compressed sensing MRI, and EEG/BCI analysis. Passionate about learning complex distributions and generating structured data with applications in healthcare.
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **ENS Paris-Saclay** — Master in Machine Learning (MVA)
+  Courses: Geometric Data Analysis, Reinforcement Learning, Time Series, Graphical Models, Deep Learning, LLM, Bayesian ML
+* **ENS Paris-Saclay** — Master in Applied Mathematics, Honors
+  Courses: Optimization, Probability & Statistics, Signal & Image Processing, Deep Learning for Medical Imaging
+* **ENS Rennes** — Master in Mathematics, Highest Honors
+* **Preparatory Classes (MPSI/MP*)**, Lycée Chaptal
 
-Work experience
+Research & Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **UCL, Gatsby Unit, London** — Research Intern, Generative Modeling for Heavy-Tailed Distributions
+  *Supervisors: Arthur Gretton & Arnaud Doucet*
+* **École Polytechnique (CMAP), France** — Research Intern, Learnable Destruction Process for Generative Modeling
+  *Supervisors: Alain Durmus & Dario Shariatian*
+* **Memorial Sloan Kettering Cancer Center, NY** — Graduate Research Assistant, Python-based compressed sensing for hyperpolarized MRI
+  *Supervisors: Kayvan Keshari & Vesselin Miloushev*
+* **INRIA Saclay, France** — Research Intern, EEG signal classification and cross-validation tool development for BenchOpt
+  *Supervisor: Thomas Moreau*
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Activities & Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Pianist — Performed at Kremlin Theatre, Moscow & National Palace of Arts, Kiev
+* Pastry Chef Assistant — La Baguette Mozart, Paris
+* Piano Studies — Conservatory Rachmaninoff, Paris (Superior II level)
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Normalien Fonctionnaire Stagiaire, ENS Paris-Saclay — full government scholarship
