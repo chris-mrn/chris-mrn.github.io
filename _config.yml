@@ -23,13 +23,13 @@ repository               : "chris-mrn/chris-mrn.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Christopher Marouani"
   pronouns         :
-  bio              : "Master's student in Machine Learning (MVA) at ENS Paris-Saclay"
-  location         : "Paris-Saclay, France"
-  employer         : "ENS Paris-Saclay"
-  uri              : "https://www.linkedin.com/in/christopher-marouani-852922245/"
+  bio              : "Master’s Student in Machine Learning"
+  location         : "France"
+  employer         :
+  uri              : "https://chris-mrn.github.io"
   email            : "christopher@marouani.fr"
 
   # Academic websites

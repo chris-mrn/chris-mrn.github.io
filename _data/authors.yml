@@ -4,7 +4,6 @@ Christopher Marouani:
   name        : "Christopher Marouani"
   uri         : "https://chris-mrn.github.io"
   email       : "christopher@marouani.fr"
-  bio         : "Master's student in Machine Learning (MVA) at ENS Paris-Saclay, focusing on generative modeling and Bayesian inference."
-  avatar      : "profile.jpg"
-  twitter     :
-  google_plus :
+  bio         : "Master’s Student in Machine Learning"
+  avatar      : "profile.png"
+  github      : "chris-mrn"
