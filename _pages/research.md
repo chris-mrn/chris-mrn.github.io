@@ -16,11 +16,6 @@ I work on generative modeling (diffusion models, flow matching) and on what its 
 
 Contrastive methods pull two views of an image together and push different images apart. The repulsion is usually estimated against the rest of the batch, which requires large batches and costs quadratically in the batch size. We show that, when the mutual information between two views is maximized, the gradient of the repulsion term only involves the score $$\nabla_z \log p_Z$$ of the latent distribution. ScoreCLR learns this score by denoising score matching, with a small network trained jointly with the encoder, at a cost linear in the batch size. On CIFAR-10 and ImageNet-100, it comes within 2–4 points of SimCLR in linear-probe accuracy under a shared recipe, with projector outputs of much higher effective rank (220 of 256 dimensions on CIFAR-10, against 96 for SimCLR).
 
-<figure>
-  <a href="/images/research/scoreclr-cost-vs-batch.png"><img src="/images/research/scoreclr-cost-vs-batch.png" alt="Three plots of the cost of SimCLR and ScoreCLR against the global batch size" loading="lazy"></a>
-  <figcaption>Analytical cost of the contrastive objective alone, against the global batch size: the similarity matrix of SimCLR (blue) grows quadratically, the score-based repulsion of ScoreCLR (red) linearly. Left: FLOPs per iteration. Center: memory. Right: per-device memory of a full training iteration relative to SimCLR, for a ResNet-18 at two image resolutions.</figcaption>
-</figure>
-
 ## FREE: a time schedule from information geometry {#free}
 
 *Gatsby Computational Neuroscience Unit, UCL · October 2025 – March 2026*<br>
@@ -92,8 +87,3 @@ During the same internship, I built the first version of the [BCI benchmark](htt
 *Published in [Quadrature n° 140](https://www.quadrature-mag.fr/catalogue/ouvrage/quadrature-n-140-qua140) (April – June 2026), in French*
 
 How many shuffles does it take to mix a deck of cards? This expository article models a shuffle as a probability distribution on permutations and measures its quality by the total variation distance to the uniform distribution. With elementary tools only (the strong uniform stopping times of Aldous and Diaconis, the coupon collector and the birthday paradox), we bound the number of shuffles needed for 52 cards: about 300 for the top-in-at-random shuffle, against a dozen for the riffle shuffle. The well-known answer of seven riffle shuffles requires finer tools.
-
-<figure>
-  <a href="/images/research/card-shuffling-inverse-riffle.jpg" style="max-width: 700px; margin: 0 auto;"><img src="/images/research/card-shuffling-inverse-riffle.jpg" alt="Four successive inverse riffle shuffles of a deck of seven cards, each card being labeled with a sequence of zeros and ones" loading="lazy"></a>
-  <figcaption>Four inverse riffle shuffles of a deck of seven cards. Each card keeps track of the piles (0 or 1) it went through. Once all the sequences are distinct, here after four steps, the deck is uniformly mixed: this stopping time gives the bound for the riffle shuffle.</figcaption>
-</figure>
