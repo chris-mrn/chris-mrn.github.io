@@ -2,7 +2,6 @@
 permalink: /research/
 title: "Research"
 excerpt: "Concise descriptions of my research projects in generative modeling, representation learning, medical imaging and open-source software."
-author_profile: true
 ---
 
 I work on generative modeling (diffusion models, flow matching) and on what its tools bring to representation learning. Earlier projects dealt with inverse problems in medical imaging and with open-source benchmarking software.

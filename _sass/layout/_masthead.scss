@@ -2,6 +2,12 @@
    MASTHEAD
    ========================================================================== */
 
+/* The masthead is fixed: links to a section (#anchor) must stop below it */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: $masthead-height + 10px;
+}
+
 .masthead {
   position: fixed;
   background: var(--global-bg-color);

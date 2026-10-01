@@ -1,10 +1,6 @@
 ---
 permalink: /
 title: "Christopher Marouani"
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 **Master’s Student in Machine Learning (MVA) at ENS Paris-Saclay.**
@@ -21,10 +17,6 @@ Research Highlights:
 
 [Descriptions and figures of each project](/research/) · [Read my full CV here](/cv/)
 
-
-I write about machine learning, generative models, medical data, and research insights.
-
-[Read the blog](/year-archive/)
 
 ## Activities & Interests
 

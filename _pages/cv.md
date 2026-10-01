@@ -2,12 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
 ---
-
-{% include base_path %}
 
 Master’s Student in Machine Learning  
 firstname@lastname.fr | [chris-mrn](https://github.com/chris-mrn)

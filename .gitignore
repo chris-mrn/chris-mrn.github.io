@@ -1,33 +1,15 @@
-# Ignore the contents of the _site directory and other cache directories
+# Jekyll output and caches
 _site/
 .sass-cache/
-
-# Ignore the directory for local files during development
-local/
-
-# Ignore the Gemfile that is generated
+.jekyll-cache/
 Gemfile.lock
-
-# Ignore files created by npm
-node_modules
-package-lock.json
-
-# Ignore the vendor file at root level and bundle for alternative installation
 /vendor/
 .bundle/
 
-# Ignore folders related to IDEs
+# Editor and system files
 .vscode/
-
-# Ignore files created by MacOS
 .DS_Store
 
-# Ignore the source material of the research page (paper and report sources, resume)
-# Only the figures copied to images/research/ are published
+# Local material that is not part of the website: figure sources, resume, paper folders
+/local/
 /resume.tex
-/FREE__Fisher_Rao_Energy_Equirepartition*/
-/M*lange_de_jeu_de_cartes/
-/State_Dependent_Discrete_Diffusion*/
-/Score_contrastive_latent_representation_learning*/
-/Rapport_MSK*/
-/ARPE_Report/
