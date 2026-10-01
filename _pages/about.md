@@ -5,6 +5,8 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+---
+
 **Master’s Student in Machine Learning (MVA) at ENS Paris-Saclay.**
 
 Specializing in **Generative Modeling**, **Bayesian Inference**, and applications in healthcare.
