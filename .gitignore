@@ -21,3 +21,13 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Ignore the source material of the research page (paper and report sources, resume)
+# Only the figures copied to images/research/ are published
+/resume.tex
+/FREE__Fisher_Rao_Energy_Equirepartition*/
+/M*lange_de_jeu_de_cartes/
+/State_Dependent_Discrete_Diffusion*/
+/Score_contrastive_latent_representation_learning*/
+/Rapport_MSK*/
+/ARPE_Report/

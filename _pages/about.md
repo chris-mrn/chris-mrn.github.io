@@ -7,21 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-Master’s Student in Machine Learning
-
-I +33 06 95 89 15 44 # christopher@marouani.fr § [chris-mrn](https://github.com/chris-mrn)
-
 **Master’s Student in Machine Learning (MVA) at ENS Paris-Saclay.**
 
 Specializing in **Generative Modeling**, **Bayesian Inference**, and applications in healthcare.
 
 Research Highlights:
-* **UCL, Gatsby Unit**: Generative Modeling for Heavy-Tailed Distributions.
-* **École Polytechnique**: Learnable Destruction Process for Generative Modeling.
-* **Memorial Sloan Kettering Cancer Center**: Compressed sensing framework for MRI.
-* **INRIA Saclay**: EEG signal classification.
+* **University of Amsterdam**: [ScoreCLR](/research/#scoreclr), contrastive representation learning where a score learned by denoising score matching replaces the batch of negatives (submitted to ICLR 2027).
+* **UCL, Gatsby Unit**: [FREE](/research/#free), a time schedule for flow matching and diffusion models derived from information geometry.
+* **École Polytechnique**: [D4](/research/#d4), discrete diffusion with a learnable, data-dependent destruction process.
+* **Memorial Sloan Kettering Cancer Center**: [compressed sensing for 5D hyperpolarized MRI](/research/#hp-mri), with an open-source reconstruction framework and benchmark.
+* **INRIA Saclay**: [cross-validation for Benchopt](/research/#benchopt) and a benchmark of EEG decoding methods for brain-computer interfaces.
+* **Quadrature**: [How to shuffle a deck of cards well?](/research/#card-shuffling), an article on the mathematics of card shuffling, written with Néo Tardy.
 
-[Read my full CV here](/cv/)
+[Descriptions and figures of each project](/research/) · [Read my full CV here](/cv/)
 
 
 I write about machine learning, generative models, medical data, and research insights.
@@ -42,8 +40,7 @@ I write about machine learning, generative models, medical data, and research in
 
 - [GitHub](https://github.com/chris-mrn)
 - [LinkedIn](https://www.linkedin.com/in/christopher-marouani-852922245/)
-- Email: christopher@marouani.fr
-- Phone: +33 06 95 89 15 44
+- Email: firstname@lastname.fr
 
 ---
 
