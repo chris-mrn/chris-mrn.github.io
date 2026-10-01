@@ -13,6 +13,11 @@ I work on generative modeling (diffusion models, flow matching) and on what its 
 
 Contrastive methods pull two views of an image together and push different images apart. The repulsion is usually estimated against the rest of the batch, which requires large batches and costs quadratically in the batch size. We show that, when the mutual information between two views is maximized, the gradient of the repulsion term only involves the score $$\nabla_z \log p_Z$$ of the latent distribution. ScoreCLR learns this score by denoising score matching, with a small network trained jointly with the encoder, at a cost linear in the batch size. On CIFAR-10 and ImageNet-100, it comes within 2–4 points of SimCLR in linear-probe accuracy under a shared recipe, with projector outputs of much higher effective rank (220 of 256 dimensions on CIFAR-10, against 96 for SimCLR).
 
+<figure>
+  <a href="/images/research/scoreclr-repulsion.png"><img src="/images/research/scoreclr-repulsion.png" alt="Views of a dog and of a cat are encoded into two groups of points. The dog points are pushed away from the cat points by a repulsion force, estimated from a few circled batch samples for SimCLR and from the whole distribution for ScoreCLR." loading="lazy"></a>
+  <figcaption>Separating cats and dogs in self-supervised learning: SimCLR, ScoreCLR.</figcaption>
+</figure>
+
 ## FREE: Fisher–Rao Energy Equirepartition for Stochastic Interpolant Paths {#free}
 
 *Gatsby Computational Neuroscience Unit, UCL, 2025–2026 · supervised by Arthur Gretton and Arnaud Doucet*
