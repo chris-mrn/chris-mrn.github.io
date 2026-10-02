@@ -2,6 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
+excerpt: "Curriculum vitae of Christopher Marouani: research experience, papers and education."
 ---
 
 Master’s Student in Machine Learning  

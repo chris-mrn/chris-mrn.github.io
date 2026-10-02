@@ -16,6 +16,37 @@
 <meta property="og:title" content="{{ page.title | default: site.title }}">
 <meta property="og:description" content="{{ page_description }}">
 <meta property="og:url" content="{{ page_url }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ site.author.avatar | prepend: '/images/' | absolute_url }}">
+
+{% comment %} Who the site is about, in the format search engines read (schema.org), on the home page only {% endcomment %}
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ "/#website" | absolute_url | jsonify }},
+      "url": {{ "/" | absolute_url | jsonify }},
+      "name": {{ site.title | jsonify }}
+    },
+    {
+      "@type": "Person",
+      "@id": {{ "/#person" | absolute_url | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "url": {{ "/" | absolute_url | jsonify }},
+      "image": {{ site.author.avatar | prepend: "/images/" | absolute_url | jsonify }},
+      "description": {{ page.excerpt | default: site.description | strip_html | strip_newlines | jsonify }},
+      "sameAs": [
+        {{ site.author.github | prepend: "https://github.com/" | jsonify }},
+        {{ site.author.linkedin | prepend: "https://www.linkedin.com/in/" | jsonify }}
+      ]
+    }
+  ]
+}
+</script>
+{% endif %}
 
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">

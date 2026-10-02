@@ -1,12 +1,12 @@
 ---
 permalink: /research/
 title: "Research"
-excerpt: "Concise descriptions of my research projects in generative modeling, representation learning, medical imaging and open-source software."
+excerpt: "Research projects of Christopher Marouani in generative modeling, representation learning, medical imaging and open-source software."
 ---
 
 ## Contrastive latent representation learning with denoising score matching (ScoreCLR) {#scoreclr}
 
-University of Amsterdam, 2026 · with Grigory Bartosh and Christian A. Naesseth · submitted to ICLR 2027
+University of Amsterdam, Amsterdam, 2026 · with Grigory Bartosh and Christian A. Naesseth · submitted to ICLR 2027
 {: .project-meta}
 
 We introduce ScoreCLR, a contrastive representation learning method that offers a novel way to estimate the repulsive force between views of different samples, which typically requires large batch sizes, can exhibit high variance, and is susceptible to the curse of dimensionality: ScoreCLR replaces the batch of explicit negatives of contrastive methods with a learned, amortized repulsion whose cost is linear in the batch size rather than quadratic. On CIFAR-10 and ImageNet-100, this comes with a minimal downgrade in linear-probe accuracy compared with SimCLR under a shared recipe, while producing projector outputs of higher effective rank. To do so, we consider the framework of representation learning by maximizing the mutual information between two latent views of a sample: by deriving the gradient of the Shannon entropy with respect to the encoder parameters, we obtain an equivalent objective that involves the score of the latent representation, $$\nabla_z \log p_Z(z)$$, and we use denoising score matching techniques to estimate this score with a lightweight network that is trained jointly with the encoder.
@@ -18,7 +18,7 @@ We introduce ScoreCLR, a contrastive representation learning method that offers 
 
 ## FREE: Fisher–Rao Energy Equirepartition for Stochastic Interpolant Paths {#free}
 
-Gatsby Computational Neuroscience Unit, UCL, 2025–2026 · supervised by Arthur Gretton and Arnaud Doucet
+Gatsby Computational Neuroscience Unit, UCL, London, 2025–2026 · supervised by Arthur Gretton and Arnaud Doucet
 {: .project-meta}
 
 We introduce FREE, a principled framework for time-schedule selection in stochastic interpolant models, and derive closed-form expressions for the corresponding optimal schedule. Given a fixed interpolating path between data and noise, we consider the optimal time reparametrization as the one that distributes the path's information energy uniformly over time, the constant-speed (arc-length) reparametrization: unlike the length, the energy of a path is not invariant to time reparametrization. We instantiate this framework for the infinite-dimensional Fisher–Rao metric, with speed $$v_t = \sqrt{\mathbb{E}[((\partial_t \log p_t)(X_t))^2]}$$, while also considering alternative geometric criteria, and propose a simple curriculum strategy that progressively aligns training dynamics with the optimal parametrization.
@@ -30,7 +30,7 @@ We introduce FREE, a principled framework for time-schedule selection in stochas
 
 ## Data Dependent Discrete Diffusion (D4) {#d4}
 
-CMAP, École Polytechnique, 2025 · supervised by Alain Durmus and Dario Shariatian
+CMAP, École Polytechnique, Paris, 2025 · supervised by Alain Durmus and Dario Shariatian
 {: .project-meta}
 
 We introduce D4 (Data Dependent Discrete Diffusion), a new type of generative model for discrete state space modeling that has the ability to learn how information is destroyed during training. Having more freedom in the set of exercises increases the flexibility of the sampling procedure, enabling the model to correct itself at each sampling step. The training procedure is decomposed into two parts: first, a teacher model $$F^\varphi$$ produces a learnable degradation of the data, which is then passed to a student model aiming at reconstructing the conditional rate matrix of the underlying CTMC process. We consider factorized probability paths with
@@ -45,7 +45,7 @@ Contrary to masked diffusion models, the conditional probability of the $$i$$-th
 
 ## Construction and Reconstruction of Under-sampled k-space for Five-dimensional Hyperpolarized MRI {#hp-mri}
 
-Memorial Sloan Kettering Cancer Center, 2024 · supervised by Kayvan R. Keshari and Vesselin Miloushev · [notebook](https://github.com/chris-mrn/5D_CS_Reconstruction_HP_MRI) · [benchmark](https://github.com/chris-mrn/Benchmark_HP_MRI)
+Memorial Sloan Kettering Cancer Center, New York, 2024 · supervised by Kayvan R. Keshari and Vesselin Miloushev · [notebook](https://github.com/chris-mrn/5D_CS_Reconstruction_HP_MRI) · [benchmark](https://github.com/chris-mrn/Benchmark_HP_MRI)
 {: .project-meta}
 
 We implemented a framework for the construction and reconstruction of undersampled k-space for five-dimensional hyperpolarized <sup>13</sup>C-pyruvate MRI, a technique that plays a crucial role in detecting and monitoring tumors by tracking the conversion of <sup>13</sup>C-pyruvate into its metabolic products, such as lactate, bicarbonate and alanine. The first three dimensions of the image represent the spatial coordinates, the fourth the spectrum, and the fifth the time evolution of metabolism; due to the rapid depolarization of the hyperpolarized signal, the acquisition time is limited to about two minutes, leading to undersampling of k-space. Our approach samples k-space with random sinc gradient waveforms that the 3T scanner can reliably generate, and reconstructs the image with our own Python framework, built on PyLops and PyProximal. As hyperpolarized MRI lacks access to ground-truth data, we also developed the first simulated 5D HP-MRI dataset and an open-source Benchopt benchmark, to the best of our knowledge the first for HP-MRI in Python. By leveraging the sparsity prior, we achieve the same precision with 10 times fewer acquisition points.
@@ -62,7 +62,7 @@ We implemented a framework for the construction and reconstruction of undersampl
 
 ## Benchopt and the Brain Computer Interface (BCI) Benchmark {#benchopt}
 
-INRIA Saclay, MIND team, 2023 · supervised by Thomas Moreau
+INRIA Saclay, MIND team, Paris, 2023 · supervised by Thomas Moreau
 {: .project-meta}
 
 I developed a cross-validation tool for [Benchopt](https://benchopt.github.io), an open-source benchmarking software: it was merged into the library ([pull request #623](https://github.com/benchopt/benchopt/pull/623)) and released in version 1.6. I also benchmarked EEG signal classification methods for Brain-Computer Interfaces in the [BCI benchmark](https://github.com/benchopt/benchmark_bci), which evaluates BCI methods on various tasks, datasets and paradigms, with the balanced accuracy as its core metric. BCI problems aim to discriminate between various active conditions of subjects that are recorded using a neuroimaging device such as an EEG headband, for instance imagining the moving of the left or right hand; the choice of evaluation process defines which subjects and sessions are the training data and which are the test data (intra-session, inter-session or inter-subject).

@@ -30,6 +30,11 @@ defaults:
       type: pages
     values:
       layout: single
+  # Google Search Console ownership file: served, but not listed in the sitemap
+  - scope:
+      path: "google948ae0b0797426ef.html"
+    values:
+      sitemap: false
 
 markdown: kramdown
 kramdown:

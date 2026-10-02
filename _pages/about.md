@@ -1,17 +1,18 @@
 ---
 permalink: /
 title: "Christopher Marouani"
+excerpt: "Christopher Marouani studied mathematics at ENS Paris-Saclay (MVA master’s in machine learning) and works on generative modeling, latent representation learning and applications to healthcare."
 ---
 
 I studied mathematics at ENS Paris-Saclay, where I did the MVA master’s in machine learning. My specialty is generative modeling, latent representation learning, and applications to healthcare.
 
 ## Research Highlights
 
-* University of Amsterdam: [ScoreCLR](/research/#scoreclr), a contrastive representation learning method that estimates the repulsion term using denoising score matching (submitted to ICLR 2027).
-* UCL, Gatsby Unit: [Fisher–Rao Energy Equirepartition (FREE)](/research/#free), a principled framework for time-schedule selection in stochastic interpolant models.
-* École Polytechnique: [Data Dependent Discrete Diffusion (D4)](/research/#d4), a generative model for discrete state spaces that learns how information is destroyed during training.
-* Memorial Sloan Kettering Cancer Center: [construction and reconstruction of under-sampled k-space for five-dimensional hyperpolarized MRI](/research/#hp-mri).
-* INRIA Saclay: a benchmark of EEG signal classification methods for Brain-Computer Interfaces and a [cross-validation tool for Benchopt](/research/#benchopt).
+* University of Amsterdam, Amsterdam: [ScoreCLR](/research/#scoreclr), a contrastive representation learning method that estimates the repulsion term using denoising score matching (submitted to ICLR 2027).
+* UCL, Gatsby Unit, London: [Fisher–Rao Energy Equirepartition (FREE)](/research/#free), a principled framework for time-schedule selection in stochastic interpolant models.
+* École Polytechnique, Paris: [Data Dependent Discrete Diffusion (D4)](/research/#d4), a generative model for discrete state spaces that learns how information is destroyed during training.
+* Memorial Sloan Kettering Cancer Center, New York: [construction and reconstruction of under-sampled k-space for five-dimensional hyperpolarized MRI](/research/#hp-mri).
+* INRIA Saclay, Paris: a benchmark of EEG signal classification methods for Brain-Computer Interfaces and a [cross-validation tool for Benchopt](/research/#benchopt).
 
 [Descriptions and figures of each project](/research/) · [Read my full CV here](/cv/)
 
