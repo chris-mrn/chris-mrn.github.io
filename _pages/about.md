@@ -6,13 +6,9 @@ excerpt: "Christopher Marouani studied mathematics at ENS Paris-Saclay (MVA Mast
 
 I studied mathematics at ENS Paris-Saclay, where I completed the MVA Master’s in Machine Learning. My research interests include generative modeling with diffusion and flow matching models, latent representation learning, and applications of AI in healthcare.
 
-## New Preprint
-
-[Contrastive latent representation learning with denoising score matching](/files/scoreclr.pdf) (ScoreCLR), with Grigory Bartosh and Christian A. Naesseth, October 2026. [Description and figure](/research/#scoreclr).
-
 ## Research Highlights
 
-* University of Amsterdam, Amsterdam: [ScoreCLR](/research/#scoreclr), a contrastive representation learning method that estimates the repulsion term using denoising score matching (submitted to ICLR 2027).
+* <a class="new-badge" href="/files/scoreclr.pdf">New</a> University of Amsterdam, Amsterdam: [ScoreCLR](/research/#scoreclr), a contrastive representation learning method that estimates the repulsion term using denoising score matching (submitted to ICLR 2027).
 * UCL, Gatsby Unit, London: [Fisher–Rao Energy Equirepartition (FREE)](/research/#free), a principled framework for time-schedule selection in stochastic interpolant models.
 * École Polytechnique, Paris: [Data Dependent Discrete Diffusion (D4)](/research/#d4), a generative model for discrete state spaces that learns how information is destroyed during training.
 * Memorial Sloan Kettering Cancer Center, New York: [construction and reconstruction of under-sampled k-space for five-dimensional hyperpolarized MRI](/research/#hp-mri).

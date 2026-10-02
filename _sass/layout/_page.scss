@@ -85,6 +85,27 @@
     }
   }
 
+  /* "New" tag in front of a recent item: the only color of the site, and it moves a little */
+  a.new-badge {
+    display: inline-block;
+    padding: 0 0.5em;
+    margin-right: 0.3em;
+    border-radius: 1em;
+    background: var(--global-new-color);
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-decoration: none;
+    vertical-align: 0.1em;
+    animation: new-bob 1.8s ease-in-out infinite;
+
+    &:hover {
+      color: #fff;
+      background: var(--global-new-color-hover);
+      animation-play-state: paused;
+    }
+  }
+
   /* displayed equation: scrolls sideways on narrow screens */
   .equation {
     overflow-x: auto;
@@ -404,4 +425,14 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+
+@keyframes new-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page__content a.new-badge { animation: none; }
 }
