@@ -1,10 +1,14 @@
 ---
 permalink: /
 title: "Christopher Marouani"
-excerpt: "Christopher Marouani studied mathematics at ENS Paris-Saclay (MVA master’s in machine learning) and works on generative modeling with diffusion and flow matching, latent representation learning and applications to healthcare."
+excerpt: "Christopher Marouani studied mathematics at ENS Paris-Saclay (MVA Master’s in Machine Learning). Research interests: generative modeling with diffusion and flow matching models, latent representation learning, and applications of AI in healthcare."
 ---
 
-I studied mathematics at ENS Paris-Saclay, where I did the MVA master’s in machine learning. My specialty is generative modeling with diffusion and flow matching, latent representation learning, and applications to healthcare.
+I studied mathematics at ENS Paris-Saclay, where I completed the MVA Master’s in Machine Learning. My research interests include generative modeling with diffusion and flow matching models, latent representation learning, and applications of AI in healthcare.
+
+## New Preprint
+
+[Contrastive latent representation learning with denoising score matching](/files/scoreclr.pdf) (ScoreCLR), with Grigory Bartosh and Christian A. Naesseth, October 2026. [Description and figure](/research/#scoreclr).
 
 ## Research Highlights
 

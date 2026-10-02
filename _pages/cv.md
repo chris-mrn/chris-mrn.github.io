@@ -37,7 +37,7 @@ Research Experiences
 
 Papers
 ======
-* C. Marouani, G. Bartosh, C. A. Naesseth. [*Contrastive latent representation learning with denoising score matching.*](/files/scoreclr.pdf) Submitted to ICLR 2027.
+* C. Marouani, G. Bartosh, C. A. Naesseth. [*Contrastive latent representation learning with denoising score matching.*](/files/scoreclr.pdf) Preprint, October 2026; submitted to ICLR 2027.
 * C. Marouani, N. Tardy. [*Comment bien mélanger un jeu de cartes ?*](https://www.quadrature-mag.fr/catalogue/ouvrage/quadrature-n-140-qua140) Quadrature n° 140, 2026.
 
 Education
