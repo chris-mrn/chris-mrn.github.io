@@ -12,18 +12,17 @@
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
+    @include suffix(2 of 12);
   }
 
   a {
-    text-decoration: underline;
+    text-decoration-line: underline;
+  }
 
-    &:hover {
-      text-decoration: underline;
-
-      img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
-      }
-    }
+  /* section headings of the page, written as first-level headings in Markdown */
+  h1:not(.page__title) {
+    margin-top: 2.5em;
+    font-size: 1.15em;
   }
 }
 

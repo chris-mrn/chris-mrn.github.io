@@ -16,7 +16,7 @@ body {
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.6;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -25,10 +25,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
-  line-height: 1.2;
+  margin: 2.5em 0 0.6em;
+  line-height: 1.3;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-  font-size: $type-size-4;
+  font-size: 1.15em;
 }
 
 h3 {
@@ -115,6 +115,10 @@ blockquote {
 /* links */
 
 a {
+  text-decoration-color: var(--global-underline-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+
   &:focus {
     @extend %tab-focus;
   }
@@ -122,6 +126,8 @@ a {
   &:hover,
   &:active {
     outline: 0;
+    color: var(--global-link-color-hover);
+    text-decoration-color: currentColor;
   }
 }
 
@@ -198,7 +204,7 @@ figure {
   -webkit-box-align: start;
           align-items: flex-start;
   flex-wrap: wrap;
-  margin: 2em 0;
+  margin: 2.5em 0;
 
   img,
   iframe,
@@ -208,9 +214,6 @@ figure {
 
   img {
     width: 100%;
-    border-radius: $border-radius;
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
   }
 
   > a {
@@ -251,18 +254,10 @@ figcaption {
   color: var(--global-fig-caption-color);
   font-family: $caption-font-family;
   font-size: $type-size-6;
+  line-height: 1.5;
 
   a {
     color: inherit;
-    text-decoration: none;
-    border-bottom: 1px solid var(--global-border-color );
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
-
-    &:hover {
-      color: #000;
-      border-bottom-color: #000;
-    }
   }
 }
 
@@ -338,12 +333,6 @@ nav {
       opacity: 1;
     }
   }
-
-/* Global animation transition */
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
-  -webkit-transition: $global-transition;
-  transition: $global-transition;
-}
 
 /* ==========================================================================
    PRINT STYLES

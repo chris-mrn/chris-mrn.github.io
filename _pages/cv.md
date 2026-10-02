@@ -11,17 +11,17 @@ Research Experiences
 ======
 * **Amsterdam Machine Learning Lab, University of Amsterdam**, Amsterdam, Netherlands (June – September 2026)
   *Research Intern, Latent Representation Learning.*
-  * [ScoreCLR](/research/#scoreclr): contrastive representation learning with denoising score matching (submitted to ICLR 2027).
+  * [ScoreCLR](/research/#scoreclr): a contrastive representation learning method that estimates the repulsion term using denoising score matching (submitted to ICLR 2027).
   * Supervisors: Christian Naesseth, Grigory Bartosh.
 
 * **UCL, Gatsby Computational Neuroscience Unit**, London (October 2025 – March 2026)
   *Research Intern, Generative Modeling for Heavy-Tailed Distributions.*
-  * [FREE](/research/#free): a time schedule for stochastic interpolants derived from Fisher–Rao energy equirepartition.
+  * [FREE](/research/#free): a principled framework for time-schedule selection in stochastic interpolant models, based on Fisher–Rao energy equirepartition.
   * Supervisors: Arthur Gretton (DeepMind & UCL), Arnaud Doucet (DeepMind & Oxford).
 
 * **École Polytechnique (CMAP)**, Palaiseau, France (April – August 2025)
   *Research Intern, Learnable Destruction Process for Generative Modeling (Discrete and Continuous State Spaces).*
-  * [D4](/research/#d4): discrete diffusion with a data-dependent forward process, implemented in PyTorch Lightning with multi-GPU parallelization and mixed-precision training.
+  * [D4](/research/#d4): a generative model for discrete state spaces that learns how information is destroyed during training, implemented in PyTorch Lightning with multi-GPU parallelization and mixed-precision training.
   * Supervisors: Alain Durmus, Dario Shariatian.
 
 * **Memorial Sloan Kettering Cancer Center (Kayvan Keshari Lab)**, New York, USA (April – August 2024)

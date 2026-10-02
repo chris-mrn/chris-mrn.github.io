@@ -1,4 +1,4 @@
-// Behaviour of the page chrome: theme, navigation menu, sidebar and footer placement.
+// Behaviour of the page chrome: theme, navigation menu and footer placement.
 
 const root = document.documentElement;
 const masthead = document.querySelector(".masthead");
@@ -44,7 +44,6 @@ const menuButton = nav.querySelector("button");
 const visibleLinks = nav.querySelector(".visible-links");
 const hiddenLinks = nav.querySelector(".hidden-links");
 const tail = visibleLinks.querySelector(".persist.tail");
-const followButton = document.querySelector(".author__urls-wrapper button");
 const breaks = [];   // widths of the visible list at which a link was hidden
 
 function availableWidth() {
@@ -74,29 +73,16 @@ function updateNav() {
   }
   menuButton.setAttribute("count", breaks.length);
 
-  // The masthead is fixed: push the page, and the sticky sidebar on wide screens, below it.
+  // The masthead is fixed: push the page, and the sidebar on wide screens, below it.
   const height = inner(masthead, "height") + "px";
   document.body.style.paddingTop = height;
-  if (sidebar) sidebar.style.paddingTop = followButton.getClientRects().length > 0 ? "" : height;
+  if (sidebar) sidebar.style.paddingTop = window.innerWidth >= LARGE ? height : "";
 }
 
 menuButton.addEventListener("click", () => {
   hiddenLinks.classList.toggle("hidden");
   menuButton.classList.toggle("close");
 });
-
-/* Sidebar: on narrow screens the links are folded behind the "Follow" button. */
-
-if (sidebar) {
-  const links = sidebar.querySelector(".author__urls");
-  followButton.addEventListener("click", () => {
-    links.style.display = getComputedStyle(links).display === "none" ? "block" : "none";
-    followButton.classList.toggle("open");
-  });
-  window.addEventListener("resize", () => {
-    if (getComputedStyle(links).display === "none" && window.innerWidth >= LARGE) links.style.display = "block";
-  });
-}
 
 /* Footer: it is positioned at the bottom of the page, so the body keeps room for it. */
 
