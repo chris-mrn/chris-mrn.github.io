@@ -16,12 +16,12 @@ Research Experiences
 
 * **UCL, Gatsby Computational Neuroscience Unit**, London (October 2025 – March 2026)
   *Research Intern, Generative Modeling for Heavy-Tailed Distributions.*
-  * [FREE](/research/#free): a principled framework for time-schedule selection in stochastic interpolant models, based on Fisher–Rao energy equirepartition.
+  * [Fisher–Rao Energy Equirepartition (FREE)](/research/#free): a principled framework for time-schedule selection in stochastic interpolant models.
   * Supervisors: Arthur Gretton (DeepMind & UCL), Arnaud Doucet (DeepMind & Oxford).
 
 * **École Polytechnique (CMAP)**, Palaiseau, France (April – August 2025)
   *Research Intern, Learnable Destruction Process for Generative Modeling (Discrete and Continuous State Spaces).*
-  * [D4](/research/#d4): a generative model for discrete state spaces that learns how information is destroyed during training, implemented in PyTorch Lightning with multi-GPU parallelization and mixed-precision training.
+  * [Data Dependent Discrete Diffusion (D4)](/research/#d4): a generative model for discrete state spaces that learns how information is destroyed during training, implemented in PyTorch Lightning with multi-GPU parallelization and mixed-precision training.
   * Supervisors: Alain Durmus, Dario Shariatian.
 
 * **Memorial Sloan Kettering Cancer Center (Kayvan Keshari Lab)**, New York, USA (April – August 2024)

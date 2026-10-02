@@ -48,6 +48,11 @@
 
 .page__content {
 
+  /* a heading that opens the page sits closer to the page title */
+  > h2:first-child {
+    margin-top: 1.2em;
+  }
+
   p, li, dl {
     font-size: 1em;
   }
