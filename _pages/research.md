@@ -41,7 +41,7 @@ p^{\varphi, i}_{t \mid 1,0}(x^i \mid x_1, x_0) \;=\; \frac{1}{Z_t^{\varphi}} \Bi
 \]
 </div>
 
-Contrary to masked diffusion models, the conditional probability of the $$i$$-th token depends on the entire sequence, not only on the $$i$$-th token of the end points. Implemented in PyTorch Lightning with multi-GPU parallelization and mixed-precision training.
+Contrary to masked diffusion models, the conditional probability of the $$i$$-th token depends on the entire sequence, not only on the $$i$$-th token of the end points.
 
 ## Construction and Reconstruction of Under-sampled k-space for Five-dimensional Hyperpolarized MRI {#hp-mri}
 
