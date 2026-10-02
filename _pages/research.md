@@ -73,7 +73,7 @@ The [BCI benchmark](https://github.com/benchopt/benchmark_bci) evaluates BCI met
 
 ## Comment bien mélanger un jeu de cartes ? {#card-shuffling}
 
-With Néo Tardy, ENS Paris-Saclay · [Quadrature n° 140](https://www.quadrature-mag.fr/catalogue/ouvrage/quadrature-n-140-qua140), 2026 (in French)
+Pedagogical research project with Néo Tardy, ENS Paris-Saclay · [Quadrature n° 140](https://www.quadrature-mag.fr/catalogue/ouvrage/quadrature-n-140-qua140), 2026 (in French)
 {: .project-meta}
 
 It is often said that to shuffle a deck of cards, it suffices to repeat the riffle shuffle seven times. The aim of this article is to understand how mathematics justifies this assertion and to introduce the probabilistic methods used to study card shuffles. We first set up the mathematical framework and introduce a few central notions, in particular the total variation distance and strong uniform stopping times. The last part applies these concepts to two shuffles, the top-in-at-random and the riffle shuffle. The top-in-at-random shuffle is not very efficient: it would have to be iterated nearly 300 times for the distribution of the cards to be considered quasi-uniform. For the riffle shuffle our method sets the number of shuffles needed around 12; it does not justify the well-known fact that 7 riffle shuffles suffice.

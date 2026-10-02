@@ -3,7 +3,7 @@ permalink: /
 title: "Christopher Marouani"
 ---
 
-Master’s Student in Machine Learning (MVA) at ENS Paris-Saclay, specializing in generative modeling, Bayesian inference, and applications in healthcare.
+I studied mathematics at ENS Paris-Saclay, where I did the MVA master’s in machine learning. My specialty is generative modeling, latent representation learning, and applications to healthcare.
 
 ## Research Highlights
 
@@ -12,9 +12,12 @@ Master’s Student in Machine Learning (MVA) at ENS Paris-Saclay, specializing i
 * École Polytechnique: [D4](/research/#d4), a generative model for discrete state spaces that learns how information is destroyed during training.
 * Memorial Sloan Kettering Cancer Center: [construction and reconstruction of under-sampled k-space for five-dimensional hyperpolarized MRI](/research/#hp-mri).
 * INRIA Saclay: a benchmark of EEG signal classification methods for Brain-Computer Interfaces and a [cross-validation tool for Benchopt](/research/#benchopt).
-* Quadrature: [Comment bien mélanger un jeu de cartes ?](/research/#card-shuffling), an article on the mathematics of card shuffling, written with Néo Tardy.
 
 [Descriptions and figures of each project](/research/) · [Read my full CV here](/cv/)
+
+## Pedagogical Project
+
+* Quadrature: [Comment bien mélanger un jeu de cartes ?](/research/#card-shuffling), an article on the mathematics of card shuffling, written with Néo Tardy.
 
 ## Activities & Interests
 
