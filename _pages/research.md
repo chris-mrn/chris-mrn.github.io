@@ -6,7 +6,7 @@ excerpt: "Research projects of Christopher Marouani in generative modeling, repr
 
 ## Contrastive latent representation learning with denoising score matching (ScoreCLR) {#scoreclr}
 
-University of Amsterdam, Amsterdam, 2026 · with Grigory Bartosh and Christian A. Naesseth · submitted to ICLR 2027
+University of Amsterdam, Amsterdam, 2026 · with Grigory Bartosh and Christian A. Naesseth · submitted to ICLR 2027 · [preprint](/files/scoreclr.pdf)
 {: .project-meta}
 
 We introduce ScoreCLR, a contrastive representation learning method that offers a novel way to estimate the repulsive force between views of different samples, which typically requires large batch sizes, can exhibit high variance, and is susceptible to the curse of dimensionality: ScoreCLR replaces the batch of explicit negatives of contrastive methods with a learned, amortized repulsion whose cost is linear in the batch size rather than quadratic. On CIFAR-10 and ImageNet-100, this comes with a minimal downgrade in linear-probe accuracy compared with SimCLR under a shared recipe, while producing projector outputs of higher effective rank. To do so, we consider the framework of representation learning by maximizing the mutual information between two latent views of a sample: by deriving the gradient of the Shannon entropy with respect to the encoder parameters, we obtain an equivalent objective that involves the score of the latent representation, $$\nabla_z \log p_Z(z)$$, and we use denoising score matching techniques to estimate this score with a lightweight network that is trained jointly with the encoder.
