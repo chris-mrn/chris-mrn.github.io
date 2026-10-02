@@ -1,10 +1,10 @@
 ---
 permalink: /
 title: "Christopher Marouani"
-excerpt: "Christopher Marouani studied mathematics at ENS Paris-Saclay (MVA master’s in machine learning) and works on generative modeling, latent representation learning and applications to healthcare."
+excerpt: "Christopher Marouani studied mathematics at ENS Paris-Saclay (MVA master’s in machine learning) and works on generative modeling with diffusion and flow matching, latent representation learning and applications to healthcare."
 ---
 
-I studied mathematics at ENS Paris-Saclay, where I did the MVA master’s in machine learning. My specialty is generative modeling, latent representation learning, and applications to healthcare.
+I studied mathematics at ENS Paris-Saclay, where I did the MVA master’s in machine learning. My specialty is generative modeling with diffusion and flow matching, latent representation learning, and applications to healthcare.
 
 ## Research Highlights
 
