@@ -22,7 +22,7 @@ Research Experiences
 
 * **École Polytechnique (CMAP)**, Palaiseau, France (April – August 2025)
   *Research Intern, Learnable Destruction Process for Generative Modeling (Discrete and Continuous State Spaces).*
-  * [Data Dependent Discrete Diffusion (D4)](/research/#d4): a generative model for discrete state spaces that learns how information is destroyed during training, implemented in PyTorch Lightning with multi-GPU parallelization and mixed-precision training.
+  * [Data Dependent Discrete Diffusion (D4)](/research/#d4): a generative model for discrete state spaces that learns how to destroy information during training, implemented in PyTorch Lightning with multi-GPU parallelization and mixed-precision training.
   * Supervisors: Alain Durmus, Dario Shariatian.
 
 * **Memorial Sloan Kettering Cancer Center (Kayvan Keshari Lab)**, New York, USA (April – August 2024)

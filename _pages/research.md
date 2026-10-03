@@ -33,7 +33,7 @@ We introduce FREE, a principled framework for time-schedule selection in stochas
 CMAP, École Polytechnique, Paris, 2025 · supervised by Alain Durmus and Dario Shariatian
 {: .project-meta}
 
-We introduce D4 (Data Dependent Discrete Diffusion), a new type of generative model for discrete state space modeling that has the ability to learn how information is destroyed during training. Having more freedom in the set of exercises increases the flexibility of the sampling procedure, enabling the model to correct itself at each sampling step. The training procedure is decomposed into two parts: first, a teacher model $$F^\varphi$$ produces a learnable degradation of the data, which is then passed to a student model aiming at reconstructing the conditional rate matrix of the underlying CTMC process. We consider factorized probability paths with
+We introduce D4 (Data Dependent Discrete Diffusion), a new type of generative model for discrete state space modeling that has the ability to learn how to destroy information during training. Having more freedom in the set of exercises increases the flexibility of the sampling procedure, enabling the model to correct itself at each sampling step. The training procedure is decomposed into two parts: first, a teacher model $$F^\varphi$$ produces a learnable degradation of the data, which is then passed to a student model aiming at reconstructing the conditional rate matrix of the underlying CTMC process. We consider factorized probability paths with
 
 <div class="equation">
 \[
