@@ -13,3 +13,10 @@ Gemfile.lock
 # Local material that is not part of the website: figure sources, resume, paper folders
 /local/
 /resume.tex
+/resume.pdf
+/resume.aux
+/resume.log
+/resume.out
+/resume.fls
+/resume.fdb_latexmk
+/resume.synctex.gz
