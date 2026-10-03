@@ -11,28 +11,28 @@ firstname@lastname.fr | [chris-mrn](https://github.com/chris-mrn)
 Research Experiences
 ======
 * **Amsterdam Machine Learning Lab, University of Amsterdam**, Amsterdam, Netherlands (June – September 2026)
-  *Research Intern, Latent Representation Learning.*
+  *Research Intern (ARPE), Latent Representation Learning.*
   * [ScoreCLR](/research/#scoreclr): a contrastive representation learning method that estimates the repulsion term using denoising score matching (submitted to ICLR 2027).
   * Supervisors: Christian Naesseth, Grigory Bartosh.
 
 * **UCL, Gatsby Computational Neuroscience Unit**, London (October 2025 – March 2026)
-  *Research Intern, Generative Modeling for Heavy-Tailed Distributions.*
+  *Research Intern (ARPE), Generative Modeling for Heavy-Tailed Distributions.*
   * [Fisher–Rao Energy Equirepartition (FREE)](/research/#free): a principled framework for time-schedule selection in stochastic interpolant models.
   * Supervisors: Arthur Gretton (DeepMind & UCL), Arnaud Doucet (DeepMind & Oxford).
 
 * **École Polytechnique (CMAP)**, Palaiseau, France (April – August 2025)
   *Research Intern, Learnable Destruction Process for Generative Modeling (Discrete and Continuous State Spaces).*
-  * [Data Dependent Discrete Diffusion (D4)](/research/#d4): a generative model for discrete state spaces that learns how to destroy information during training, implemented in PyTorch Lightning with multi-GPU parallelization and mixed-precision training.
+  * [Data Dependent Discrete Diffusion (D4)](/research/#d4): a generative model for discrete state spaces that learns how to destroy information during training.
   * Supervisors: Alain Durmus, Dario Shariatian.
 
 * **Memorial Sloan Kettering Cancer Center (Kayvan Keshari Lab)**, New York, USA (April – August 2024)
   *Graduate Research Assistant.*
-  * Developed a Python-based [compressed sensing framework](/research/#hp-mri) for optimizing hyperpolarized MRI reconstruction, focusing on under-sampled k-space data in five-dimensional imaging.
+  * Developed a Python-based [compressed sensing framework](/research/#hp-mri) for optimizing hyperpolarized MRI reconstruction, focusing on under-sampled k-space data in five-dimensional imaging, reaching the same precision with 10 times fewer acquisition points.
   * Supervisors: Kayvan R. Keshari, Vesselin Miloushev.
 
 * **INRIA Saclay (Team MIND, ex-Parietal)**, Palaiseau, France (May – July 2023)
   *Research Intern.*
-  * Benchmarked EEG signal classification methods for Brain-Computer Interfaces and developed a [cross-validation tool for Benchopt](/research/#benchopt), an open-source benchmarking software.
+  * Benchmarked EEG signal classification methods for Brain-Computer Interfaces and developed a [cross-validation tool for Benchopt](/research/#benchopt), an open-source benchmarking software, merged and released in Benchopt 1.6.
   * Supervisor: Thomas Moreau.
 
 Papers
@@ -42,6 +42,10 @@ Papers
 
 Education
 ======
+* **ENS Paris-Saclay**, London & Amsterdam (2025–2026)
+  *ARPE, Pre-doctoral Research Year Abroad*
+  * Research internships at the Gatsby Unit (UCL) and the Amsterdam Machine Learning Lab (UvA).
+
 * **ENS Paris-Saclay**, France (2024–2025)
   *Master in Machine Learning MVA*
   * Main courses: Geometric Data Analysis, Reinforcement Learning, Time Series, Graphical Models, Deep Learning, LLM, Data Generation through Transport and Denoising, Bayesian ML.
@@ -56,11 +60,10 @@ Education
 
 * **Lycée Chaptal**, France (2019–2022)
   *Preparatory Classes (MPSI/MP\*)*
-  * Highly competitive program preparing for top-tier French engineering schools.
 
 Skills
 ======
-* Diffusion models, generative modeling, MRI, EEG signals, heavy-tailed distributions, open-source software, Python, PyTorch, multi-GPU training.
+* Diffusion and flow matching models, discrete diffusion, representation learning, score matching, heavy-tailed distributions, medical imaging (MRI, EEG), PyTorch, open source.
 
 Activities and Interests
 ======
