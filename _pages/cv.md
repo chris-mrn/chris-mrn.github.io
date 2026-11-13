@@ -12,7 +12,7 @@ Research Experiences
 ======
 * **Amsterdam Machine Learning Lab, University of Amsterdam**, Amsterdam, Netherlands (June – September 2026)
   *Research Intern (ARPE), Latent Representation Learning.*
-  * [ScoreCLR](/research/#scoreclr): a contrastive representation learning method that estimates the repulsion term using denoising score matching (submitted to ICLR 2027).
+  * [ScoreCLR](/research/#scoreclr): a contrastive representation learning method that estimates the repulsion term using denoising score matching.
   * Supervisors: Christian Naesseth, Grigory Bartosh.
 
 * **UCL, Gatsby Computational Neuroscience Unit**, London (October 2025 – March 2026)
@@ -37,7 +37,7 @@ Research Experiences
 
 Papers
 ======
-* C. Marouani, G. Bartosh, C. A. Naesseth. [*Contrastive latent representation learning with denoising score matching.*](/files/scoreclr.pdf) Preprint, October 2026; submitted to ICLR 2027.
+* C. Marouani, G. Bartosh, C. A. Naesseth. [*Contrastive latent representation learning with denoising score matching.*](/files/scoreclr.pdf) Preprint, October 2026.
 * C. Marouani, N. Tardy. [*Comment bien mélanger un jeu de cartes ?*](https://www.quadrature-mag.fr/catalogue/ouvrage/quadrature-n-140-qua140) Quadrature n° 140, 2026.
 
 Education

@@ -8,7 +8,7 @@ I studied mathematics at ENS Paris-Saclay, where I completed the MVA Master’s 
 
 ## Research Highlights
 
-* <a class="new-badge" href="/files/scoreclr.pdf">New</a> **University of Amsterdam**, Amsterdam: [ScoreCLR](/research/#scoreclr), a contrastive representation learning method that estimates the repulsion term using denoising score matching (submitted to ICLR 2027).
+* <a class="new-badge" href="/files/scoreclr.pdf">New</a> **University of Amsterdam**, Amsterdam: [ScoreCLR](/research/#scoreclr), a contrastive representation learning method that estimates the repulsion term using denoising score matching.
 * **UCL, Gatsby Unit**, London: [Fisher–Rao Energy Equirepartition (FREE)](/research/#free), a principled framework for time-schedule selection in stochastic interpolant models.
 * **École Polytechnique**, Paris: [Data Dependent Discrete Diffusion (D4)](/research/#d4), a generative model for discrete state spaces that learns how to destroy information during training.
 * **Memorial Sloan Kettering Cancer Center**, New York: [construction and reconstruction of under-sampled k-space for five-dimensional hyperpolarized MRI](/research/#hp-mri).
