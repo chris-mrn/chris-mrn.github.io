@@ -12,6 +12,7 @@ author:
   avatar   : "profile.jpg"   # file in images/
   github   : "chris-mrn"
   linkedin : "christopher-marouani-852922245/"
+  googlescholar : "K97ooMoAAAAJ"   # Google Scholar user id
 
 # Pages live in _pages/ and use the "single" layout unless they say otherwise
 include:

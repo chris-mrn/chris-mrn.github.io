@@ -30,6 +30,7 @@ I studied mathematics at ENS Paris-Saclay, where I completed the MVA Master’s 
 
 - [GitHub](https://github.com/chris-mrn)
 - [LinkedIn](https://www.linkedin.com/in/christopher-marouani-852922245/)
+- [Google Scholar](https://scholar.google.com/citations?user=K97ooMoAAAAJ)
 - Email: firstname@lastname.fr
 
 *Normalien Fonctionnaire Stagiaire, ENS Paris-Saclay — full government scholarship*

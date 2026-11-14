@@ -40,7 +40,8 @@
       "description": {{ page.excerpt | default: site.description | strip_html | strip_newlines | jsonify }},
       "sameAs": [
         {{ site.author.github | prepend: "https://github.com/" | jsonify }},
-        {{ site.author.linkedin | prepend: "https://www.linkedin.com/in/" | jsonify }}
+        {{ site.author.linkedin | prepend: "https://www.linkedin.com/in/" | jsonify }},
+        {{ site.author.googlescholar | prepend: "https://scholar.google.com/citations?user=" | jsonify }}
       ]
     }
   ]
